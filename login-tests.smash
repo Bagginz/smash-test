@@ -1,0 +1,11 @@
+* Log In
+    Navigate to '******'
+        Verify '#InputPassword' is visible
+            Set 'input[id=InputUsername]' to '******'
+                Set 'input[id=InputPassword]' to '******'
+                    Click '#submitLogin'
+                        Wait until '#choice-1' is visible (up to '30' secs)
+
+- Login Success
+    Choose a browser
+        Log In

@@ -1,0 +1,8 @@
+- Content Inline 
+    Choose a browser
+        Log In
+            Click '#choice-3'
+                Wait until '#sidemenu-1' is visible (up to '30' secs)
+                    Click '#sidemenu-2'
+                        Click 'a[href="?manage=true/#!/layoutmanager/5ca451685bfc3c001a9477f3"]'
+                            Wait until '.ContentPreview' is visible (up to '30' secs)
